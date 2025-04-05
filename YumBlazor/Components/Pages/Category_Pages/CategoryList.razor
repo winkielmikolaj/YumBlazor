@@ -65,6 +65,19 @@ else
         IsProcessing = false;
     }
 
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            IsProcessing = true;
+            StateHasChanged();
+            await LoadCategories();
+            IsProcessing = false;
+            StateHasChanged();
+        }
+        //return base.OnAfterRenderAsync(firstRender);
+    }
+    
     private async Task LoadCategories()
     {
         Categories = await _categoryRepository.GetAllAsync();
