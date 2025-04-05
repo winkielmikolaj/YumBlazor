@@ -54,19 +54,19 @@ else
 @code {
     private IEnumerable<Category> Categories { get; set; } = new List<Category>();
     
-    private bool IsProcessing { get; set; } = false;
+    private bool IsProcessing { get; set; }
 
 
     protected override async Task OnInitializedAsync()
     {
         IsProcessing = true;
-        await Task.Delay(2000);
-        LoadCategories();
+        await Task.Delay(1000);
+        await LoadCategories();
         IsProcessing = false;
     }
 
-    private void LoadCategories()
+    private async Task LoadCategories()
     {
-        Categories = _categoryRepository.GetAll();
+        Categories = await _categoryRepository.GetAllAsync();
     }
 }
