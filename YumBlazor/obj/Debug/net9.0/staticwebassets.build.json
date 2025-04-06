@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DqoNGZs0aDhHxAHGlqDIWBCxmPBfLd++fEyqi2wgsHY=",
+  "Hash": "rTvwEMfAKnmgjPjHQMR2T17cnzvU94cdfUyohtG4bUA=",
   "Source": "YumBlazor",
   "BasePath": "_content/YumBlazor",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\08dvfd9nya-d47ianwqy1.gz",
+      "SourceId": "YumBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/YumBlazor",
+      "RelativePath": "lib/bootstrap/dist/js/Notification#[.{fingerprint=d47ianwqy1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "12mrydebrj",
+      "Integrity": "lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js"
+    },
     {
       "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\0duntqri28-43atpzeawx.gz",
       "SourceId": "YumBlazor",
@@ -2094,6 +2115,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js",
+      "SourceId": "YumBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\",
+      "BasePath": "_content/YumBlazor",
+      "RelativePath": "lib/bootstrap/dist/js/Notification#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d47ianwqy1",
+      "Integrity": "c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js"
     }
   ],
   "Endpoints": [
@@ -15914,6 +15956,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-pf2AOjAOccWBEl9ORfBaaHo0t3lQUfisiqfIeMW9tqI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.d47ianwqy1.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\08dvfd9nya-d47ianwqy1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007633587786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d47ianwqy1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/Notification.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.d47ianwqy1.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d47ianwqy1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/Notification.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.d47ianwqy1.js.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\08dvfd9nya-d47ianwqy1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d47ianwqy1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/Notification.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\08dvfd9nya-d47ianwqy1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007633587786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.js.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\08dvfd9nya-d47ianwqy1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs="
         }
       ]
     },

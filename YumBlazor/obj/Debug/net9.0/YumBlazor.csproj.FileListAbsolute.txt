@@ -242,3 +242,4 @@ C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\refint\YumBlazor.dll
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\YumBlazor.pdb
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\YumBlazor.genruntimeconfig.cache
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\ref\YumBlazor.dll
+C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\08dvfd9nya-d47ianwqy1.gz

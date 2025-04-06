@@ -10545,6 +10545,304 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/dist/js/Notification.d47ianwqy1.js",
+      "AssetFile": "lib/bootstrap/dist/js/Notification.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007633587786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d47ianwqy1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/Notification.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.d47ianwqy1.js",
+      "AssetFile": "lib/bootstrap/dist/js/Notification.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d47ianwqy1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/Notification.js"
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.d47ianwqy1.js.gz",
+      "AssetFile": "lib/bootstrap/dist/js/Notification.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d47ianwqy1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/Notification.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.js",
+      "AssetFile": "lib/bootstrap/dist/js/Notification.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007633587786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.js",
+      "AssetFile": "lib/bootstrap/dist/js/Notification.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "204"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c4VDMoXSCkqEjhcWHb3hd9JQWF2mU6F2k4Vj79V5MmI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/Notification.js.gz",
+      "AssetFile": "lib/bootstrap/dist/js/Notification.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Apr 2025 10:33:30 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lwGUbjiVKjKRaxbmbrVtMnfw+MViy2aCJy3/p3swiJs="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.4094rpi4f9.js",
       "AssetFile": "lib/bootstrap/dist/js/bootstrap.bundle.js.gz",
       "Selectors": [
