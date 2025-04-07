@@ -54,6 +54,6 @@ public class ProductRepository(ApplicationDbContext db) : IProductRepository
 
     public async Task<IEnumerable<Product>> GetAllAsync()
     {
-        return await db.Products.ToListAsync();
+        return await db.Products.Include(p => p.Category).ToListAsync();
     }
 }
