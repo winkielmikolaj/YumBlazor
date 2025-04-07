@@ -244,3 +244,4 @@ C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\YumBlazor.genruntimeconf
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\ref\YumBlazor.dll
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\08dvfd9nya-d47ianwqy1.gz
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\qq3lg32ei8-u8jt74r4lz.gz
+C:\Users\winki\RiderProjects\YumBlazor\bin\Debug\net9.0\Microsoft.Build.Framework.dll

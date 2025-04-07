@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[9.0.3, )"
             },
+            "Microsoft.Build.Framework": {
+              "target": "Package",
+              "version": "[17.8.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.3, )"
