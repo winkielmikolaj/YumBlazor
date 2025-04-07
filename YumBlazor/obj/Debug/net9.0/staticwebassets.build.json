@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rTvwEMfAKnmgjPjHQMR2T17cnzvU94cdfUyohtG4bUA=",
+  "Hash": "pOQZUuj0euqxLL3PIJ2Z2ZzZ9oluaIY7qvRDHxRgTKA=",
   "Source": "YumBlazor",
   "BasePath": "_content/YumBlazor",
   "Mode": "Default",
@@ -792,6 +792,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\YumBlazor.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\qq3lg32ei8-u8jt74r4lz.gz",
+      "SourceId": "YumBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/YumBlazor",
+      "RelativePath": "lib/bootstrap/dist/js/common#[.{fingerprint=u8jt74r4lz}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\common.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9w49oekrjs",
+      "Integrity": "CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\common.js"
     },
     {
       "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\qxz7k6kkny-ee0r1s7dh0.gz",
@@ -2115,6 +2136,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\common.js",
+      "SourceId": "YumBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\",
+      "BasePath": "_content/YumBlazor",
+      "RelativePath": "lib/bootstrap/dist/js/common#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u8jt74r4lz",
+      "Integrity": "rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\common.js"
     },
     {
       "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\Notification.js",
@@ -15956,6 +15998,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-pf2AOjAOccWBEl9ORfBaaHo0t3lQUfisiqfIeMW9tqI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/common.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\qq3lg32ei8-u8jt74r4lz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006329113924"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/common.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/common.js.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\qq3lg32ei8-u8jt74r4lz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/common.u8jt74r4lz.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\qq3lg32ei8-u8jt74r4lz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006329113924"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u8jt74r4lz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/common.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/common.u8jt74r4lz.js",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u8jt74r4lz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/common.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/common.u8jt74r4lz.js.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\qq3lg32ei8-u8jt74r4lz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 07:37:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u8jt74r4lz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/common.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZHDUQgXh9NFEvCvDvbInGSx4hNebqNpCKrjajzQ4nY="
         }
       ]
     },

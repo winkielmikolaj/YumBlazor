@@ -600,6 +600,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u9q1upor1n"},{"Name":"integrity","Value":"sha256-vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA="},{"Name":"label","Value":"_content/YumBlazor/lib/bootstrap/dist/js/bootstrap.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"149895"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Apr 2025 09:01:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/YumBlazor/lib/bootstrap/dist/js/common.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\common.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"281"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 07:37:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/YumBlazor/lib/bootstrap/dist/js/common.u8jt74r4lz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\common.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u8jt74r4lz"},{"Name":"integrity","Value":"sha256-rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8="},{"Name":"label","Value":"_content/YumBlazor/lib/bootstrap/dist/js/common.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"281"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022rq2TzYsBX2A1R47gHURBZ4AYXCXy8wuXMAqYy5f3Yb8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 07:37:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/YumBlazor/lib/bootstrap/dist/js/Notification.d47ianwqy1.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\Notification.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

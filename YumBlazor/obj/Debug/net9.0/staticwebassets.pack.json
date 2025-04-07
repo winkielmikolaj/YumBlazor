@@ -209,6 +209,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\js\\common.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\common.js"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.YumBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
