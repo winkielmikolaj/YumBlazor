@@ -2,7 +2,12 @@
 @inject ICategoryRepository _categoryRepository;
 @inject IJSRuntime _JS
 
-<YumBlazor.Components.Shared.BsModel OnModelConfirmation="ConfirmDeleteClick"></YumBlazor.Components.Shared.BsModel>
+<BsModel OnModelConfirmation="ConfirmDeleteClick"
+         ButtonBootstrapStyle="btn-danger"
+         ButtonText="Delete"
+         Title="Are you sure you want to delete this Category?">
+
+</BsModel>
 
 @if (IsProcessing)
 {
@@ -63,7 +68,7 @@ else
 
 @code {
     private IEnumerable<Category> Categories { get; set; } = new List<Category>();
-    
+
     private bool IsProcessing { get; set; }
     private int DeleteCategoryId { get; set; } = 0;
 
@@ -105,10 +110,10 @@ else
             }
 
             await LoadCategories();
-
         }
 
         DeleteCategoryId = 0;
         IsProcessing = false;
     }
+
 }
