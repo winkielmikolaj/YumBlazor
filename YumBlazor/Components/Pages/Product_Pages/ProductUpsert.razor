@@ -49,14 +49,18 @@ else
                             </div>
                             <div class="form-floating py-3 col-12">
                                 <InputSelect @bind-Value="Product.CategoryId" class="form-select" id="category">
-                                <option value="0" disabled selected>--Select Category--</option>
-                                @foreach (var category in _categories)
-                                {
-                                    <option value="@category.Id">@category.Name</option>
-                                }
+                                    <option value="0" disabled selected>--Select Category--</option>
+                                    @foreach (var category in _categories)
+                                    {
+                                        <option value="@category.Id">@category.Name</option>
+                                    }
                                 </InputSelect>
                                 <label for="category">Category</label>
                                 <ValidationMessage For="@(() => Product.CategoryId)"></ValidationMessage>
+                            </div>
+                            <div class="form-floating py-3 col-12">
+                                <InputFile OnChange="LoadFiles" class="form-control" id="customFile" accept="image/x-png,image/jpeg"></InputFile>
+                                <label for="customFile">Upload Image</label>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6 col-md-3">
@@ -85,9 +89,12 @@ else
 
     [SupplyParameterFromForm] private Product Product { get; set; } = new Product();
 
-    public IEnumerable<Category> _categories = new List<Category>();
+    private IEnumerable<Category> _categories = new List<Category>();
 
+    private string? _directoryPath { get; set; }
+    private bool _isImageLoading { get; set; } = false;
     private bool IsProcessing { get; set; } = true;
+
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -127,6 +134,11 @@ else
 
         IsProcessing = false;
         _navigationManager.NavigateTo("product");
+    }
+
+    private async Task LoadFiles(InputFileChangeEventArgs e)
+    {
+        
     }
 
 }
