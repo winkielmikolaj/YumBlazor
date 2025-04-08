@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pOQZUuj0euqxLL3PIJ2Z2ZzZ9oluaIY7qvRDHxRgTKA=",
+  "Hash": "xkuxye5HAS7tO3FszOr7E7x6FwV7xVfcbpMCYcNljOg=",
   "Source": "YumBlazor",
   "BasePath": "_content/YumBlazor",
   "Mode": "Default",
@@ -1212,6 +1212,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\Images\\Product\\01c8b4f7-bca7-4a71-97c9-f8a42bea6114..jpg",
+      "SourceId": "YumBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\",
+      "BasePath": "_content/YumBlazor",
+      "RelativePath": "Images/Product/01c8b4f7-bca7-4a71-97c9-f8a42bea6114.#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0xnvdghy80",
+      "Integrity": "LHglY4HBxdqVyrkL6NKkNacSuqA37oQg1Mu6PBWhdy8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Product\\01c8b4f7-bca7-4a71-97c9-f8a42bea6114..jpg"
     },
     {
       "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2886,6 +2907,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-dS9knEug5c4d5ZlOGYpm7IjaBOs8jooQ6ZbN/ojVONc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Product/01c8b4f7-bca7-4a71-97c9-f8a42bea6114..0xnvdghy80.jpg",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\Images\\Product\\01c8b4f7-bca7-4a71-97c9-f8a42bea6114..jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHglY4HBxdqVyrkL6NKkNacSuqA37oQg1Mu6PBWhdy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0xnvdghy80"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Product/01c8b4f7-bca7-4a71-97c9-f8a42bea6114..jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHglY4HBxdqVyrkL6NKkNacSuqA37oQg1Mu6PBWhdy8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Product/01c8b4f7-bca7-4a71-97c9-f8a42bea6114..jpg",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\wwwroot\\Images\\Product\\01c8b4f7-bca7-4a71-97c9-f8a42bea6114..jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHglY4HBxdqVyrkL6NKkNacSuqA37oQg1Mu6PBWhdy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 08:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHglY4HBxdqVyrkL6NKkNacSuqA37oQg1Mu6PBWhdy8="
         }
       ]
     },
