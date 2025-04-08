@@ -3,6 +3,7 @@
 @inject IProductRepository _productRepository;
 @inject ICategoryRepository _categoryRepository;
 @inject NavigationManager _navigationManager;
+@inject IWebHostEnvironment _webHostEnvironment;
 @inject IJSRuntime _JS;
 
 
@@ -59,7 +60,8 @@ else
                                 <ValidationMessage For="@(() => Product.CategoryId)"></ValidationMessage>
                             </div>
                             <div class="form-floating py-3 col-12">
-                                <InputFile OnChange="LoadFiles" class="form-control" id="customFile" accept="image/x-png,image/jpeg"></InputFile>
+                                <InputFile OnChange="LoadFiles" class="form-control" id="customFile"
+                                           accept="image/x-png,image/jpeg"></InputFile>
                                 <label for="customFile">Upload Image</label>
                             </div>
                             <div class="row mt-3">
@@ -95,6 +97,12 @@ else
     private bool _isImageLoading { get; set; } = false;
     private bool IsProcessing { get; set; } = true;
 
+
+    protected override Task OnInitializedAsync()
+    {
+        _directoryPath = Path.Combine(_webHostEnvironment.WebRootPath, "images", "product");
+        return base.OnInitializedAsync();
+    }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
@@ -138,7 +146,21 @@ else
 
     private async Task LoadFiles(InputFileChangeEventArgs e)
     {
+        IsProcessing = true;
+        var file = e.File;
+        FileInfo fileInfo = new(file.Name);
+        var newFileName = $"{Guid.NewGuid()}.{fileInfo.Extension}";
+        if (!Directory.Exists(_directoryPath))
+        {
+            Directory.CreateDirectory(_directoryPath);
+        }
+
+        var path = Path.Combine(_directoryPath, newFileName);
+
+        await using FileStream fileStream = new(path, FileMode.Create);
+        await file.OpenReadStream(file.Size).CopyToAsync(fileStream);
         
+        IsProcessing = false;
     }
 
 }
