@@ -4,30 +4,43 @@ using YumBlazor.Repository.IRepository;
 
 namespace YumBlazor.Repository;
 
-public class ProductRepository(ApplicationDbContext db) : IProductRepository
+public class ProductRepository : IProductRepository
 {
+    private readonly ApplicationDbContext _db;
+    private readonly IWebHostEnvironment _webHostEnvironment;
+
+    public ProductRepository(ApplicationDbContext db, IWebHostEnvironment webHostEnvironment)
+    {
+        _db = db;
+        _webHostEnvironment = webHostEnvironment;
+    }
     public async Task<Product> CreateAsync(Product obj)
     {
-        await db.Products.AddAsync(obj);
-        await db.SaveChangesAsync();
+        await _db.Products.AddAsync(obj);
+        await _db.SaveChangesAsync();
         return obj;
     }
 
     public async Task<bool> DeleteAsync(int id)
     {
-        var obj = await db.Products.FirstOrDefaultAsync(u => u.Id == id);
+        var obj = await _db.Products.FirstOrDefaultAsync(u => u.Id == id);
+        var imagePath = Path.Combine(_webHostEnvironment.WebRootPath, obj.ImageUrl.TrimStart('/'));
+        if (File.Exists(imagePath))
+        {
+            File.Delete(imagePath);
+        }
 
         if (obj != null)
         {
-            db.Products.Remove(obj);
-            return await (db.SaveChangesAsync()) > 0;
+            _db.Products.Remove(obj);
+            return await (_db.SaveChangesAsync()) > 0;
         }
         return false;
     }
 
     public async Task<Product> GetAsync(int id)
     {
-        var obj = db.Products.FirstOrDefault(u => u.Id == id);
+        var obj = _db.Products.FirstOrDefault(u => u.Id == id);
         if (obj == null)
         {
             return new Product();
@@ -37,7 +50,7 @@ public class ProductRepository(ApplicationDbContext db) : IProductRepository
 
     public async Task<Product> UpdateAsync(Product obj)
     {
-        var objFromDb = await db.Products.FirstOrDefaultAsync(u => u.Id == obj.Id);
+        var objFromDb = await _db.Products.FirstOrDefaultAsync(u => u.Id == obj.Id);
         if (objFromDb != null)
         {
             objFromDb.Name = obj.Name;
@@ -45,8 +58,8 @@ public class ProductRepository(ApplicationDbContext db) : IProductRepository
             objFromDb.Price = obj.Price;
             objFromDb.CategoryId = obj.CategoryId;
             objFromDb.ImageUrl = obj.ImageUrl;
-            db.Products.Update(objFromDb);
-            await db.SaveChangesAsync();
+            _db.Products.Update(objFromDb);
+            await _db.SaveChangesAsync();
             return objFromDb;
         }
         return obj;
@@ -54,6 +67,6 @@ public class ProductRepository(ApplicationDbContext db) : IProductRepository
 
     public async Task<IEnumerable<Product>> GetAllAsync()
     {
-        return await db.Products.Include(p => p.Category).ToListAsync();
+        return await _db.Products.Include(p => p.Category).ToListAsync();
     }
 }
