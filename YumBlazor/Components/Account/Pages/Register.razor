@@ -11,9 +11,11 @@
 @inject IUserStore<ApplicationUser> UserStore
 @inject SignInManager<ApplicationUser> SignInManager
 @inject IEmailSender<ApplicationUser> EmailSender
+@inject RoleManager<IdentityRole> RoleManager
 @inject ILogger<Register> Logger
 @inject NavigationManager NavigationManager
 @inject IdentityRedirectManager RedirectManager
+
 
 <PageTitle>Register</PageTitle>
 
@@ -101,6 +103,21 @@
 
         Logger.LogInformation("User created a new account with password.");
 
+        if (!await RoleManager.RoleExistsAsync(SD.Role_Customer))
+        {
+            await RoleManager.CreateAsync(new IdentityRole(SD.Role_Customer));
+            await RoleManager.CreateAsync(new IdentityRole(SD.Role_Admin));
+        }
+        
+        if (Input.Role is not null)
+        {
+            await UserManager.AddToRoleAsync(user, Input.Role);
+        }
+        else
+        {
+            await UserManager.AddToRoleAsync(user, SD.Role_Customer);
+        }
+        
         var userId = await UserManager.GetUserIdAsync(user);
         var code = await UserManager.GenerateEmailConfirmationTokenAsync(user);
         code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
