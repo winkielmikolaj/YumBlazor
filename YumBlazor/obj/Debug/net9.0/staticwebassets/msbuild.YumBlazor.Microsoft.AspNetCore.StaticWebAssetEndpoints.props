@@ -96,6 +96,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kbe1q9ljwm"},{"Name":"integrity","Value":"sha256-wCzebC26Pzsu/0fRHBurCbtGlN2GBHoEb5rIS857pnk="},{"Name":"label","Value":"_content/YumBlazor/Images/Product/1c010268-1a3e-4ee3-8df3-dd2754e048e0..jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"61563"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022wCzebC26Pzsu/0fRHBurCbtGlN2GBHoEb5rIS857pnk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 08:15:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/YumBlazor/Images/Product/d7e9684f-0158-4ee4-8b46-790190723b9f..jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Product\d7e9684f-0158-4ee4-8b46-790190723b9f..jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TcVdJW7xtDQBX\u002Bu5mLuhIQz4pb47XoHnvKFPysJ6RfA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66778"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TcVdJW7xtDQBX\u002Bu5mLuhIQz4pb47XoHnvKFPysJ6RfA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:36:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/YumBlazor/Images/Product/d7e9684f-0158-4ee4-8b46-790190723b9f..pp3m55ndx5.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Product\d7e9684f-0158-4ee4-8b46-790190723b9f..jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pp3m55ndx5"},{"Name":"integrity","Value":"sha256-TcVdJW7xtDQBX\u002Bu5mLuhIQz4pb47XoHnvKFPysJ6RfA="},{"Name":"label","Value":"_content/YumBlazor/Images/Product/d7e9684f-0158-4ee4-8b46-790190723b9f..jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66778"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TcVdJW7xtDQBX\u002Bu5mLuhIQz4pb47XoHnvKFPysJ6RfA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 10 Apr 2025 17:36:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/YumBlazor/lib/bootstrap/dist/css/bootstrap-grid.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
