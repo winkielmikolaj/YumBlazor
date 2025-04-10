@@ -196,6 +196,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBdXRoLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/winki/RiderProjects/YumBlazor/Components/Pages/Cart_Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXJ0X1BhZ2VzXENhcnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/winki/RiderProjects/YumBlazor/Components/Pages/Category_Pages/CategoryList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYXRlZ29yeV9QYWdlc1xDYXRlZ29yeUxpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
