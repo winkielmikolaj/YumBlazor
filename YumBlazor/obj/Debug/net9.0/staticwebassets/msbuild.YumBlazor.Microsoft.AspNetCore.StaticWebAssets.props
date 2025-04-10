@@ -972,23 +972,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\Notification.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YumBlazor.4lexq1u6wx.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YumBlazor.e0bgovtzfe.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>YumBlazor</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/YumBlazor</BasePath>
-      <RelativePath>YumBlazor.4lexq1u6wx.bundle.scp.css</RelativePath>
+      <RelativePath>YumBlazor.e0bgovtzfe.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>4lexq1u6wx</Fingerprint>
-      <Integrity>GCb6AV8FPpQdiXJXjfsEj7eZ1x7CZ6Gkg+EPOVsCCbY=</Integrity>
+      <Fingerprint>e0bgovtzfe</Fingerprint>
+      <Integrity>vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YumBlazor.4lexq1u6wx.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\YumBlazor.e0bgovtzfe.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

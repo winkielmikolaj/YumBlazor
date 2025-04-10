@@ -225,8 +225,6 @@ C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\560m51s45e-u9
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\bi90losd5p-h1s4sie4z3.gz
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\oulsvypa7r-4d85u1mtcx.gz
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\spp3o3b0wd-0j3bgjxly4.gz
-C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\a3qr8v3ln2-4lexq1u6wx.gz
-C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\pspppuyngn-4lexq1u6wx.gz
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -245,3 +243,6 @@ C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\ref\YumBlazor.dll
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\08dvfd9nya-d47ianwqy1.gz
 C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\qq3lg32ei8-u8jt74r4lz.gz
 C:\Users\winki\RiderProjects\YumBlazor\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\scopedcss\Components\Layout\NavBar.razor.rz.scp.css
+C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\a3qr8v3ln2-e0bgovtzfe.gz
+C:\Users\winki\RiderProjects\YumBlazor\obj\Debug\net9.0\compressed\pspppuyngn-e0bgovtzfe.gz
