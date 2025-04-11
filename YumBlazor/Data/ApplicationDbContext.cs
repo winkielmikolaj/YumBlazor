@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using YumBlazor.Components.Pages.Cart_Pages;
 
 namespace YumBlazor.Data;
 
@@ -8,6 +9,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 {
     public DbSet<Category> Categories { get; set; }
     public DbSet<Product> Products { get; set; }
+
+    public DbSet<ShoppingCart> ShoppingCart { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
