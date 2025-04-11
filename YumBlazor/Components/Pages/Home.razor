@@ -165,17 +165,18 @@ else
         var user = authState.User;
         var authenticated = user.Identity is not null && user.Identity.IsAuthenticated;
 
+        //if user is not authenticated then redirect to login
         if (!authenticated)
         {
-            _NavigationManager.NavigateTo("Account/Login");
+            _NavigationManager.NavigateTo("account/login", forceLoad: true);
         }
         else
         {
             //add item to cart
-            var result = await
-                _shoppingCartRepository.UpdateCartAsync(user
-                    .FindFirst(u => u.Type.Contains("nameidentifier"))?.Value, product.Id, 1);
-
+            var userId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
+            var result = await 
+                _shoppingCartRepository.UpdateCartAsync(userId, product.Id, 1);
+            //_SharedStateService.TotalCartCount = await _shoppingCartRepository.GetTotalCartCartCountAsync(userId);
             if (result)
             {
                 _JS?.ToastrSuccess("Product added to cart successfully");
