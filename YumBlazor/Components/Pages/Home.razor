@@ -3,6 +3,10 @@
 @using Microsoft.IdentityModel.Tokens
 @inject IProductRepository _productRepository
 @inject ICategoryRepository _categoryRepository
+@inject IShoppingCartRepository _shoppingCartRepository
+@inject AuthenticationStateProvider _AuthenticationStateProvider
+@inject IJSRuntime _JS
+@inject NavigationManager _NavigationManager
 
 <PageTitle>Home</PageTitle>
 
@@ -31,13 +35,13 @@ else
         <div class="content px-4 m-2">
             <ul class="nav nav-underline justify-content-center mb-2">
                 <li class="nav-item">
-                    <span class="nav-link @GetActiveTabClass(0)"  href="#" style="cursor: pointer"
+                    <span class="nav-link @GetActiveTabClass(0)" href="#" style="cursor: pointer"
                           @onclick="()=> FilterProducts(0)">All</span>
                 </li>
                 @foreach (var category in Categories)
                 {
                     <li class="nav-item">
-                        <span class="nav-link @GetActiveTabClass(category.Id)"  href="#" style="cursor: pointer"
+                        <span class="nav-link @GetActiveTabClass(category.Id)" href="#" style="cursor: pointer"
                               @onclick="()=> FilterProducts(category.Id)">@category.Name</span>
                     </li>
                 }
@@ -76,8 +80,10 @@ else
                                 <h5 class="card-title text-center lead text-success">@prod.Name</h5>
                                 <p class="card-text mt-2">@((MarkupString)@prod.Description)</p>
                                 <h4 class="text-center">
-                                    <i class="bi bi-cart3 btn btn-success text-right  px-5 form-control"> Add to
-                                        cart</i>
+                                    <div class="m-lg-auto p-2" @onclick="() => AddOrderItem(prod)">
+                                        <i class="bi bi-cart3 btn btn-success text-right  px-5 form-control"> Add to
+                                            cart</i>
+                                    </div>
                                 </h4>
 
 
@@ -151,5 +157,33 @@ else
     private string GetActiveTabClass(int categoryId)
     {
         return categoryId == _selectedCategoryId ? "active" : string.Empty;
+    }
+
+    private async Task AddOrderItem(Product product)
+    {
+        var authState = await _AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        var authenticated = user.Identity is not null && user.Identity.IsAuthenticated;
+
+        if (!authenticated)
+        {
+            _NavigationManager.NavigateTo("Account/Login");
+        }
+        else
+        {
+            //add item to cart
+            var result = await
+                _shoppingCartRepository.UpdateCartAsync(user
+                    .FindFirst(u => u.Type.Contains("nameidentifier"))?.Value, product.Id, 1);
+
+            if (result)
+            {
+                _JS?.ToastrSuccess("Product added to cart successfully");
+            }
+            else
+            {
+                _JS?.ToastrError("Error encountered");
+            }
+        }
     }
 }
