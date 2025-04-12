@@ -5,7 +5,7 @@ namespace YumBlazor.Data;
 public class OrderHeader
 {
     public int Id { get; set; }
-    [Microsoft.Build.Framework.Required] public string MyProperty { get; set; }
+    [Microsoft.Build.Framework.Required] public string UserId { get; set; }
 
     [Required]
     [Display(Name = "Order Total")]
