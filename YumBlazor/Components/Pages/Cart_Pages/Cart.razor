@@ -1,4 +1,5 @@
 ﻿@page "/cart"
+@using System.Globalization
 @using Microsoft.AspNetCore.Authorization
 @inject IProductRepository _productRepository
 @inject ICategoryRepository _categoryRepository
@@ -25,42 +26,43 @@ else
                     Cart Summary
                 </h4>
 
-
-                <div class="d-flex p-2 m-2">
-                    <div class="card flex-row w-100">
-                        <img class="card-img-left" style="width: 120px;">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h4 class="">
-                                    --ProductName--
-                                </h4>
-                                <h4>
-                                    --PRICE--
-                                </h4>
-                            </div>
-                            <div class="flex-fill">
-                                <h4 class="text-danger">
-                                    --COUNT*PRICE--
-                                </h4>
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex justify-content-between g-0">
+                @foreach (var carItem in ShoppingCarts)
+                {
+                    <div class="d-flex p-2 m-2">
+                        <div class="card flex-row w-100">
+                            <img class="card-img-left" style="width: 120px;" src="@carItem.Product.ImageUrl">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h4 class="">
+                                        @carItem.Product.Name
+                                    </h4>
+                                    <h4>
+                                        @carItem.Product.Price.ToString("C", CultureInfo.GetCultureInfo("en-us"))
+                                    </h4>
+                                </div>
+                                <div class="flex-fill">
+                                    <h4 class="text-danger">
+                                        @((carItem.Product.Price * carItem.Count).ToString("C", CultureInfo.GetCultureInfo("en-us")))
+                                    </h4>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex justify-content-between g-0">
 									<span>
 										<i class="bi bi-dash-circle-fill btn text-secondary"></i>
 									</span>
-                                    <span class="ml-1 me-1">
-										<b class="lead">--Count--</b>
+                                        <span class="ml-1 me-1">
+										<b class="lead">@carItem.Count</b>
 									</span>
-                                    <span>
+                                        <span>
 										<i class="bi bi-plus-circle-fill btn text-secondary"></i>
 									</span>
+                                    </div>
+                                    <button class="btn btn-danger">Remove</button>
                                 </div>
-                                <button class="btn btn-danger">Remove</button>
                             </div>
                         </div>
                     </div>
-                </div>
-
+                }
             </div>
         </div>
         <div class="col-lg-6 col-12 p-4">
@@ -109,7 +111,7 @@ else
 {
     private IEnumerable<ShoppingCart> ShoppingCarts { get; set; } = new List<ShoppingCart>();
     private bool IsProcessing { get; set; } = true;
-    
+
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)

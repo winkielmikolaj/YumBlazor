@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor.csproj": {}
+    "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\YumBlazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor.csproj": {
+    "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\YumBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\YumBlazor.csproj",
         "projectName": "YumBlazor",
-        "projectPath": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor.csproj",
+        "projectPath": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\YumBlazor.csproj",
         "packagesPath": "C:\\Users\\winki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\obj\\",
+        "outputPath": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
