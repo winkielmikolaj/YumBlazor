@@ -11,6 +11,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<Product> Products { get; set; }
 
     public DbSet<ShoppingCart> ShoppingCart { get; set; }
+    public DbSet<OrderDetail> OrderDetails { get; set; }
+    public DbSet<OrderHeader> OrderHeaders { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
