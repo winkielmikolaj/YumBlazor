@@ -28,7 +28,8 @@ public static class SD
             {
                 ProductId = cart.ProductId,
                 Count = cart.Count,
-                Price = Convert.ToDouble(cart.Product.Price)
+                Price = Convert.ToDouble(cart.Product.Price),
+                ProductName = cart.Product.Name
 
             };
             orderDetails.Add(orderDetail);

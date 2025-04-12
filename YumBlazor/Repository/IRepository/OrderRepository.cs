@@ -32,7 +32,7 @@ public class OrderRepository : IOrderRepository
 
     public async Task<OrderHeader> GetAsync(int id)
     {
-        return await _db.OrderHeaders.Include(u=>u.OrderDetails).FirstOrDefaultAsync(u => u.Id == id);
+        return await _db.OrderHeaders.Include(u => u.OrderDetails).FirstOrDefaultAsync(u => u.Id == id);
     }
 
     public async Task<OrderHeader> UpdateStatusAsync(int orderId, string status)
