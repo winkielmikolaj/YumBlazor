@@ -53,4 +53,16 @@ public class ShoppingCartRepository : IShoppingCartRepository
         _db.ShoppingCart.RemoveRange(cartItems);
         return await _db.SaveChangesAsync() > 0;
     }
+
+    public async Task<int> GetTotalCartCountAsync(string? userId)
+    {
+        int cartCaount = 0;
+        var cartItems =  await _db.ShoppingCart.Where(u => u.UserId == userId).ToListAsync();
+        foreach (var item in cartItems)
+        {
+            cartCaount += item.Count;
+        }
+
+        return cartCaount;
+    }
 }
