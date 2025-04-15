@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q0DFW0jVDMFrG47o1LMqj9IAclx6okfO+9mUCCWXbxA=",
+  "Hash": "bmKwUdSBkYk4LpRsMrU0aLPWWEFTfbw2nw1kpw3xhyI=",
   "Source": "YumBlazor",
   "BasePath": "_content/YumBlazor",
   "Mode": "Default",
@@ -1319,12 +1319,12 @@
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-e0bgovtzfe.gz",
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-l6z0d51ffh.gz",
       "SourceId": "YumBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/YumBlazor",
-      "RelativePath": "YumBlazor#[.{fingerprint=e0bgovtzfe}]?.styles.css.gz",
+      "RelativePath": "YumBlazor#[.{fingerprint=l6z0d51ffh}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\YumBlazor.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lf60tumqld",
-      "Integrity": "kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=",
+      "Fingerprint": "je21y83hu4",
+      "Integrity": "lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\YumBlazor.styles.css"
@@ -1970,12 +1970,12 @@
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-e0bgovtzfe.gz",
+      "Identity": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-l6z0d51ffh.gz",
       "SourceId": "YumBlazor",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/YumBlazor",
-      "RelativePath": "YumBlazor#[.{fingerprint=e0bgovtzfe}]!.bundle.scp.css.gz",
+      "RelativePath": "YumBlazor#[.{fingerprint=l6z0d51ffh}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\YumBlazor.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lf60tumqld",
-      "Integrity": "kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=",
+      "Fingerprint": "je21y83hu4",
+      "Integrity": "lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\YumBlazor.bundle.scp.css"
@@ -2488,8 +2488,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "e0bgovtzfe",
-      "Integrity": "vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=",
+      "Fingerprint": "l6z0d51ffh",
+      "Integrity": "4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\YumBlazor.styles.css"
@@ -2509,8 +2509,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "e0bgovtzfe",
-      "Integrity": "vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=",
+      "Fingerprint": "l6z0d51ffh",
+      "Integrity": "4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\YumBlazor.bundle.scp.css"
@@ -24488,12 +24488,12 @@
     },
     {
       "Route": "YumBlazor.bundle.scp.css",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-e0bgovtzfe.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-l6z0d51ffh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000440917108"
+          "Quality": "0.000440722785"
         }
       ],
       "ResponseHeaders": [
@@ -24503,15 +24503,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24531,13 +24531,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "W/\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
@@ -24552,7 +24552,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8321"
+          "Value": "8325"
         },
         {
           "Name": "Content-Type",
@@ -24560,11 +24560,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24574,13 +24574,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
     {
       "Route": "YumBlazor.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-e0bgovtzfe.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-l6z0d51ffh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24589,7 +24589,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -24597,11 +24597,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24619,18 +24619,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY="
+          "Value": "sha256-lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc="
         }
       ]
     },
     {
-      "Route": "YumBlazor.e0bgovtzfe.bundle.scp.css",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-e0bgovtzfe.gz",
+      "Route": "YumBlazor.l6z0d51ffh.bundle.scp.css",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-l6z0d51ffh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000440917108"
+          "Quality": "0.000440722785"
         }
       ],
       "ResponseHeaders": [
@@ -24640,15 +24640,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24668,13 +24668,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "W/\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e0bgovtzfe"
+          "Value": "l6z0d51ffh"
         },
         {
           "Name": "label",
@@ -24682,12 +24682,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
     {
-      "Route": "YumBlazor.e0bgovtzfe.bundle.scp.css",
+      "Route": "YumBlazor.l6z0d51ffh.bundle.scp.css",
       "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\YumBlazor.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -24697,7 +24697,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8321"
+          "Value": "8325"
         },
         {
           "Name": "Content-Type",
@@ -24705,11 +24705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24719,7 +24719,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e0bgovtzfe"
+          "Value": "l6z0d51ffh"
         },
         {
           "Name": "label",
@@ -24727,13 +24727,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
     {
-      "Route": "YumBlazor.e0bgovtzfe.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-e0bgovtzfe.gz",
+      "Route": "YumBlazor.l6z0d51ffh.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\pspppuyngn-l6z0d51ffh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24742,7 +24742,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -24750,11 +24750,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24772,7 +24772,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e0bgovtzfe"
+          "Value": "l6z0d51ffh"
         },
         {
           "Name": "label",
@@ -24780,18 +24780,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY="
+          "Value": "sha256-lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc="
         }
       ]
     },
     {
-      "Route": "YumBlazor.e0bgovtzfe.styles.css",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-e0bgovtzfe.gz",
+      "Route": "YumBlazor.l6z0d51ffh.styles.css",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-l6z0d51ffh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000440917108"
+          "Quality": "0.000440722785"
         }
       ],
       "ResponseHeaders": [
@@ -24801,15 +24801,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24829,13 +24829,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "W/\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e0bgovtzfe"
+          "Value": "l6z0d51ffh"
         },
         {
           "Name": "label",
@@ -24843,12 +24843,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
     {
-      "Route": "YumBlazor.e0bgovtzfe.styles.css",
+      "Route": "YumBlazor.l6z0d51ffh.styles.css",
       "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\scopedcss\\bundle\\YumBlazor.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -24858,7 +24858,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8321"
+          "Value": "8325"
         },
         {
           "Name": "Content-Type",
@@ -24866,11 +24866,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24880,7 +24880,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e0bgovtzfe"
+          "Value": "l6z0d51ffh"
         },
         {
           "Name": "label",
@@ -24888,13 +24888,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
     {
-      "Route": "YumBlazor.e0bgovtzfe.styles.css.gz",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-e0bgovtzfe.gz",
+      "Route": "YumBlazor.l6z0d51ffh.styles.css.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-l6z0d51ffh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24903,7 +24903,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -24911,11 +24911,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24933,7 +24933,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e0bgovtzfe"
+          "Value": "l6z0d51ffh"
         },
         {
           "Name": "label",
@@ -24941,18 +24941,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY="
+          "Value": "sha256-lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc="
         }
       ]
     },
     {
       "Route": "YumBlazor.styles.css",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-e0bgovtzfe.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-l6z0d51ffh.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000440917108"
+          "Quality": "0.000440722785"
         }
       ],
       "ResponseHeaders": [
@@ -24962,15 +24962,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24990,13 +24990,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "W/\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
@@ -25011,7 +25011,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8321"
+          "Value": "8325"
         },
         {
           "Name": "Content-Type",
@@ -25019,11 +25019,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k=\""
+          "Value": "\"4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25033,13 +25033,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vh97qB7Rc2MGur7hIqsu11dYXrxdBLuC+znpuIPYq3k="
+          "Value": "sha256-4xwlQ9SqnNiLGvJKlAMS71eGVnlC6K6YzjhzlFnagcs="
         }
       ]
     },
     {
       "Route": "YumBlazor.styles.css.gz",
-      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-e0bgovtzfe.gz",
+      "AssetFile": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\obj\\Debug\\net9.0\\compressed\\a3qr8v3ln2-l6z0d51ffh.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -25048,7 +25048,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2267"
+          "Value": "2268"
         },
         {
           "Name": "Content-Type",
@@ -25056,11 +25056,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY=\""
+          "Value": "\"lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 09:45:02 GMT"
+          "Value": "Tue, 15 Apr 2025 14:26:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25078,7 +25078,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kXW9Ci4XfX4gR60ClvxiSi3hxUnBe/fRw5rtxkNUnBY="
+          "Value": "sha256-lUt11DLPs3OlhD4RAnUevRzgixTEvUQJIieJUkz82Tc="
         }
       ]
     }
