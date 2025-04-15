@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "GLqTjcz6+CE=",
+  "dgSpecHash": "U3Hj+am2Ghk=",
   "success": true,
   "projectFilePath": "C:\\Users\\winki\\RiderProjects\\YumBlazor\\YumBlazor\\YumBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\winki\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\winki\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\winki\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\9.0.4\\microsoft.aspnetcore.authentication.facebook.9.0.4.nupkg.sha512",
+    "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\9.0.4\\microsoft.aspnetcore.authentication.google.9.0.4.nupkg.sha512",
+    "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.authentication.microsoftaccount\\9.0.4\\microsoft.aspnetcore.authentication.microsoftaccount.9.0.4.nupkg.sha512",
+    "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.authentication.twitter\\9.0.4\\microsoft.aspnetcore.authentication.twitter.9.0.4.nupkg.sha512",
     "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.4\\microsoft.aspnetcore.authorization.9.0.4.nupkg.sha512",
     "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.4\\microsoft.aspnetcore.components.9.0.4.nupkg.sha512",
     "C:\\Users\\winki\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\9.0.4\\microsoft.aspnetcore.components.analyzers.9.0.4.nupkg.sha512",

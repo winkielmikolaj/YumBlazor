@@ -36,6 +36,11 @@ public class Program
                 options.DefaultScheme = IdentityConstants.ApplicationScheme;
                 options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
             })
+            .AddFacebook(options =>
+            {
+                options.AppId = "518359308013973";
+                options.AppSecret = "88a2c37bab0d684d507067414ae41d3f";
+            })
             .AddIdentityCookies();
 
         var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??

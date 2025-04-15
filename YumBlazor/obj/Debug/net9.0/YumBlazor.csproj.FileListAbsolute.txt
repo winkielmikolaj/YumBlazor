@@ -533,3 +533,7 @@ C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\obj\Debug\net9.0\compressed\i19
 C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\obj\Debug\net9.0\compressed\6xb9o06z95-olx7shkz6a.gz
 C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\obj\Debug\net9.0\compressed\t2tvocn0z4-ygx6itvxiv.gz
 C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\obj\Debug\net9.0\compressed\yxoywjgi7f-vnc4jl6vpr.gz
+C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+C:\Users\winki\RiderProjects\YumBlazor\YumBlazor\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.Twitter.dll
