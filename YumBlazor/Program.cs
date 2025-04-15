@@ -41,6 +41,11 @@ public class Program
                 options.AppId = "518359308013973";
                 options.AppSecret = "88a2c37bab0d684d507067414ae41d3f";
             })
+            .AddGoogle(options =>
+            {
+                options.ClientId = "393327940476-sidrg3rlbtbh768ri4b3duabtdjceqhn.apps.googleusercontent.com";
+                options.ClientSecret = "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"; 
+            })
             .AddIdentityCookies();
 
         var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
