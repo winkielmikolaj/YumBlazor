@@ -1,12 +1,14 @@
 ﻿@page "/"
 @using System.Globalization
 @using Microsoft.IdentityModel.Tokens
+@using YumBlazor.Services
 @inject IProductRepository _productRepository
 @inject ICategoryRepository _categoryRepository
 @inject IShoppingCartRepository _shoppingCartRepository
 @inject AuthenticationStateProvider _AuthenticationStateProvider
 @inject IJSRuntime _JS
 @inject NavigationManager _NavigationManager
+@inject SharedStateService _sharedStateService
 
 <PageTitle>Home</PageTitle>
 
@@ -175,6 +177,7 @@ else
             var userId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
             var result = await 
                 _shoppingCartRepository.UpdateCartAsync(userId, product.Id, 1);
+            _sharedStateService.TotalCartCount = await _shoppingCartRepository.GetTotalCartCountAsync(userId);
             //_SharedStateService.TotalCartCount = await _shoppingCartRepository.GetTotalCartCartCountAsync(userId);
             if (result)
             {
