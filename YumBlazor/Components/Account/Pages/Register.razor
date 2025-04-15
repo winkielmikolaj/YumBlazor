@@ -112,7 +112,7 @@
         if (Input.Role is not null)
         {
             await UserManager.AddToRoleAsync(user, Input.Role);
-        }
+    }
         else
         {
             await UserManager.AddToRoleAsync(user, SD.Role_Customer);

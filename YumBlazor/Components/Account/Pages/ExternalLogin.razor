@@ -6,6 +6,7 @@
 @using System.Text.Encodings.Web
 @using Microsoft.AspNetCore.Identity
 @using Microsoft.AspNetCore.WebUtilities
+@using YumBlazor.Utility
 @using YumBlazor.Data
 
 @inject SignInManager<ApplicationUser> SignInManager
@@ -141,6 +142,7 @@
         var result = await UserManager.CreateAsync(user);
         if (result.Succeeded)
         {
+            await UserManager.AddToRoleAsync(user, SD.Role_Customer);
             result = await UserManager.AddLoginAsync(user, externalLoginInfo);
             if (result.Succeeded)
             {
